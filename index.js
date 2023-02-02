@@ -5,13 +5,13 @@ const ping_roles = ['919186273531461743', '919186273531461743', '919186273531461
 client.on('messageCreate', async (message) =>{
     if(message.content === 'rules' && message.member.permissions.has('ADMINISTRATOR')){
         message.delete(message)
-i        conwdwdwddst message_embed_1 = new MessageEmbed()
+i        message_embed_1 = new MessageEmbed()
         .setColor('#5865F2')
         .setTitle('> Title')
         .setImage('https://cdn.discordapp.com/attachments/815146623931383819/815531518780637194/Space.png')
         .addField('> Title 2', 'Text 2')
         .addField('> Title 3', 'Text 3')
-        .addField('> Title 4', 'Text 4')
+        .addField'> Title 4', 'Text 4')
         const message_embed_2 = new MessageEmbed()
         .setColor('#5865F2')
         .setTitle('> Title')
