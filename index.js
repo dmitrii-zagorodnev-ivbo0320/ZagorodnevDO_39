@@ -5,7 +5,7 @@ const ping_roles = ['919186273531461743', '919186273531461743', '919186273531461
 client.on('messageCreate', async (message) =>{
     if(message.content === 'rules' && message.member.permissions.has('ADMINISTRATOR')){
         message.delete(message)
-        const message_embed_1 = new MessageEmbed()
+i        conwdwdwddst message_embed_1 = new MessageEmbed()
         .setColor('#5865F2')
         .setTitle('> Title')
         .setImage('https://cdn.discordapp.com/attachments/815146623931383819/815531518780637194/Space.png')
